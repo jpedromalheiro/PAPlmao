@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MDquack</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/assets/img/icon/iconpato.png" />
+        <!-- Bootstrap icons-->
+       <!---- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-lg-5">
+                <img class="icon-mdquack" src="assets/img/icon/iconpato.png" alt="icon">
+                <a class="navbar-brand" href="index.html">MDquack</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contactos.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="parceiros.html">parceiros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="LOGIN.HTML">LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                    <div class="m-4 m-lg-5 text-dark">
+                        <img class="mdquackicontitulo" src="assets/img/icon/iconpato.png" alt="icon">
+                        <h1 class="display-5 fw-bold">MDquack</h1>
+                        
+                        <p class="fs-4">A MDquack é uma Plataforma que se dedica à Promoção e Dinamização do comércio local e das regiões de Portugal. Utiliza as tecnologias de informação e o Marketing digital para aproximar os clientes ao comércio local de cada região. 
+                            No apoio ao Comércio Local a MDquack é uma ferramenta GRÁTIS para o utilizador que o AJUDA a procurar, explorar, encontrar e descobrir tudo o que necessita. 
+                            Neste sentido, as nossas estratégias de posicionamento permite ligar os clientes certos às Empresas certas com mais sucesso do que nunca. </p>
+                        <a class="btn btn-primary btn-lg" href="about.html">Mais sobre Nós</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+<!-------------------------------------------------------------PRECISA DE CSS--------------------------------------------------------------------------------->
+
+
+
+        <!-- Barra de Pesquisa -->
+		<div class="container"></div>
+            <div id="form-pesquisar">
+                    <div class="col-md-12">
+                        <form id="form-pesquisaxs" class="form-horizontal hidden-sm hidden-md hidden-md hidden-lg" action="https://www.portugalplease.com/distrito" method="post" autocomplete="off">
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                    <select class="form-control distrito input-lg" name="distrito" required>
+                                        <option value="">Distrito...</option>
+                                                                                    <option value="acores" data-id="20">Açores</option>
+                                                                                    <option value="aveiro" data-id="10">Aveiro</option>
+                                                                                    <option value="beja" data-id="13">Beja</option>
+                                                                                    <option value="braga" data-id="2">Braga</option>
+                                                                                    <option value="braganca" data-id="4">Bragança</option>
+                                                                                    <option value="castelo-branco" data-id="14">Castelo Branco</option>
+                                                                                    <option value="coimbra" data-id="8">Coimbra</option>
+                                                                                    <option value="evora" data-id="15">Évora</option>
+                                                                                    <option value="faro" data-id="11">Faro</option>
+                                                                                    <option value="guarda" data-id="18">Guarda</option>
+                                                                                    <option value="leiria" data-id="16">Leiria</option>
+                                                                                    <option value="lisboa" data-id="9">Lisboa</option>
+                                                                                    <option value="madeira" data-id="21">Madeira</option>
+                                                                                    <option value="portalegre" data-id="19">Portalegre</option>
+                                                                                    <option value="porto" data-id="5">Porto</option>
+                                                                                    <option value="santarem" data-id="17">Santarém</option>
+                                                                                    <option value="setubal" data-id="12">Setúbal</option>
+                                                                                    <option value="viana-do-castelo" data-id="1">Viana do Castelo</option>
+                                                                                    <option value="vila-real" data-id="3">Vila Real</option>
+                                                                                    <option value="viseu" data-id="6">Viseu</option>
+                                                                                </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                            <div class="col-xs-12 col-sm-3 col-md-3">
+                                    <select class="form-control cidade-search input-lg" name="cidade" required>
+                                        <option value="">Concelho</option>
+                                    </select>
+                                </div>
+                            </div>
+                           
+
+                        </form>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-2">
+                            <select class="form-control input-lg" name="setor" id="setor" required>
+                                <option value="">Setor...</option>
+                                <option value="turismo">Turismo</option>
+                                <option value="comercio">Comércio</option>
+                                <option value="servicos">Serviços</option>
+                                <option value="industria">Indústria</option>
+                                <option value="saude-e-bem-estar">Saúde e Bem estar</option>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-2">
+                          <select id="formcategorias" class="form-control input-lg" name="categoria" required>
+                          <option value="">Categoria</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6 col-sm-6 col-md-2">
+                                    <button type="submit" class="btn btn-danger btn-block">Pesquisar</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                    <a id="geolocation-mobile" class="btn btn-success btn-block perto-de-mim">Perto de Mim</a>
+                                </div>
+                            </div>
+                       
+									
+
+
+<!---------------------------------------------------------------------PRECISA DE CSS--------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+                <!-- Page Features-->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light1 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Onde Comer</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light2 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Onde Comprar</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light3 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">serviços</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light4 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Técnicos</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light5 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Saúde e Bem estar</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light6 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Onde Dormir</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light7 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Diversão</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light8 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Indústria</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light9 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Serviços de Apoio</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light10 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Rotas</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light11 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Descrição</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light12 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Agenda</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light13 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Galeria</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light14 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">O que Visitar</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light15 border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 text-white pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient  rounded-3 mb-4 mt-n4"></div>
+                                <h2 class="fs-4 fw-bold">Torne-se Parceiro</h2>
+                                <p class="mb-0">"numero de parceiros"</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+
+        <footer class="py-5 bg-dark">
+                <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+                
+
+
+                <hr />
+                <div class="container">
+                    <div class="row">
+                        <div class="hidden-xs col-sm-4 col-md-4">
+                        <img class="footer-logo img-responsive" src="assets/img/icon/iconpato.png" alt="logo" title="Simbolo">
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <br />
+                            <h2 class="text-left titulo-destaques"><strong>Empresa</strong></h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a href="oquefazemos.html">O que fazemos</a></li>
+                                <li class="footer-list-item"><a href="termos-e-condições.html">Termos e Condições</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/politica-de-privacidade">Politica de Privacidade</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/termos-de-utilizacao-gift-card">Termos de Utilização Gift Card</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/sistema-de-pontos-cartao-desconto-please">Pontos Desconto Please!</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/faqs">FAQ's</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/parceiros-institucionais">Parceiros Institucionais</a></li>
+                                <li class="footer-list-item"><a href="https://www.portugalplease.com/contatos">Contatos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-4 text-center">
+                            <br />
+                        <div class="text-center">
+                            <ul class="list-unstyled footer-list text-center">
+                                <li class="footer-list-item text-center"><img class="text-center" src="https://www.portugalplease.com/assets/img/eupago.jpg" width="220px" height="auto" alt="eupago" /></li>
+                                <li class="footer-list-item text-center"><img class="text-center" src="https://www.portugalplease.com/assets/img/paypal.jpg" width="220px" height="auto" alt="paypal" /></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="bottom container text-center">
+            <div class="row text-center mb-5 mt-5">
+                    <div class="col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4">
+                        <a href="https://www.portugalplease.com/sugestao" class="btn btn-warning btn-block">Sugira-nos um parceiro</a>
+                    </div>
+                </div>
+            
+                <div class="row text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="footer-list-item"><a href="https://twitter.com/PortugalPlease"><img alt="twitter" src="https://www.portugalplease.com/assets/img/social/twitter.png"  /></a></li>
+                        <li class="footer-list-item"><a href="https://www.facebook.com/portugalplease/"><img alt="facebook" src="https://www.portugalplease.com/assets/img/social/facebook.png"  /></a></li>
+                        <li class="footer-list-item"><a href="https://pt.linkedin.com/company/finestdestination"><img alt="linkedin" src="https://www.portugalplease.com/assets/img/social/linkedin.png"  /></a></li>
+                        <li class="footer-list-item"><a href="https://www.instagram.com/pleaseportugal/"><img alt="instagram" src="https://www.portugalplease.com/assets/img/social/instagram.png"  /></a></li>
+                        <li class="footer-list-item"><a href="https://www.youtube.com/channel/UC6mnGR0Q31K9Y2CKfkmhbog/"><img alt="youtube" src="https://www.portugalplease.com/assets/img/social/youtube.png"  /></a></li>
+                    </ul>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p id="copy" class="fweight-700"><strong>Copyright &copy; Splendid Proposal.</strong> Todos os direitos reservados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+
+
+
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+    </body>
+</html>
