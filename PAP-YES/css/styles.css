@@ -44,8 +44,14 @@
 .mdquackicontitulo{
   width: 80px;
   height: 80px;
-
 }
+
+.my-div{
+  
+ 
+}
+
+
 
 *,
 *::before,
@@ -11855,5 +11861,7 @@ textarea.form-control-lg {
   width: 100px;
   height: 100px;
 }
+
+
 
 
